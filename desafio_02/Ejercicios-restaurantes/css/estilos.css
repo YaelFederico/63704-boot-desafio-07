@@ -1,0 +1,21 @@
+:root {
+    --color-fondo: #289688;
+    --color-titulo: #ECE542;
+    --blanco: #ffffff;
+}
+
+body {
+    background-color: var(--color-fondo);
+    text-align: center;
+}
+
+h1 {
+    color: var(--color-titulo);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px ;
+}
+
+img {
+    border: solid 10px var(--blanco);
+    margin: 5px;
+}

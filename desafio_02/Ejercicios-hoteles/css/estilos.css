@@ -1,0 +1,56 @@
+:root { 
+    --rosa:  #BB5397;
+    --celeste: #3B63A6;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: var(--celeste);    
+}
+
+.logo {
+    display: block;
+    width: 30%;
+    margin: 10px auto;
+}
+
+h1 { 
+  font-size: 60px;
+  font-weight: lighter;
+  color: var(--rosa);
+  text-align: center;
+  letter-spacing: 18px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: lighter;
+    color: var(--rosa);
+    letter-spacing: 10px;
+}
+
+.derecha {
+    float:right;
+}
+
+.izquierda { 
+    float:left;
+}
+
+.tamanio {
+    width: 70%;
+}
+
+.imagenes-hotel {
+    width: 29%;
+    margin: 7px;
+
+}
+
+.margen {
+    margin-top: 22px ;
+}
+
+.imagen-final {
+    width: 100%;
+}

@@ -1,0 +1,70 @@
+:root {
+    --color-fondo: #273238; 
+    --color-titulo: #688494;
+    --blanco: #FFFFFF;
+    --color-aspiradora: #E9CCBE;
+    --color-celulares: #A7BFCB;
+    --color-consolas: #C3BDBB;
+    --color-home-theaters: #8E959F;
+    --color-televisores: #B5B2AA;
+    --color-tipografia: #A4AFB5;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-fondo) ; 
+    color: var(--color-tipografia);
+}
+
+h1 {    
+    width: 100%; 
+    color: var(--color-titulo);
+    background-color: var(--blanco) ;
+    padding: 10px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: Arial, Gadget, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 2px;
+}
+
+h2::first-letter{
+    font-size:30px ;
+}
+
+p {
+    padding: 2px;
+}
+
+.color-aspiradora { 
+    color:var(--color-aspiradora)
+}
+
+.color-celulares {
+    color: var(--color-celulares);
+}
+
+.color-consolas {
+    color:var(--color-consolas)
+}
+
+.color-home-theaters {
+    color:var(--color-home-theaters)
+}
+
+.color-televisores {
+    color:var(--color-televisores)
+}
+
+img {
+    margin-left: 50px;
+    width: 600px;
+    border: solid 5px; 
+}
