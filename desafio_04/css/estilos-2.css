@@ -1,0 +1,78 @@
+body {
+    background-color: #6F1AB6;
+}
+
+
+
+#titulo { 
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    width: 77%;
+    padding: 10px;
+    margin: 20px 10px 20px 195px;
+    display: flex; 
+    justify-content: center;
+    background-color: #3D1766; 
+    }
+
+
+.vendidos {
+    background-color: #3D1766;
+    border: 5px, solid, white;
+    color: #ffffff;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.caja{
+    background-color: #3D1766 ;
+    display: flex;
+    flex-direction: row-reverse; 
+    text-align: left;
+    color: #ffffff;
+}
+
+img {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 300px; 
+    width: 77%; 
+  } 
+
+
+.descripcion {
+    color: #ffffff;
+    padding: 20px;
+}
+
+.titulo-mortal { 
+    color: #ffffff ;
+    background-color: #3d1766;
+    position: absolute; 
+    
+}
+
+.titulo-mario {
+    color: #ffffff ;
+    background-color: #3d1766;
+    position: absolute; 
+    
+}
+
+.rotar {
+  padding: 10px;
+  background-color: #ccc;
+  position: relative;
+}
+
+.rotar span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg); 
+  }
+
+footer {
+    text-align: center;
+}

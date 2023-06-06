@@ -1,0 +1,125 @@
+:root {
+    --color-fondo: #E11364;
+    --color-recuadro: #BC105C;
+    --color-pie-pagina: #E96093 ;
+    --blanco: #ffffff ;
+}
+
+body {
+    background-color: var(--color-fondo);
+
+}
+
+
+   
+#titulo { 
+    text-align: center;
+    color: var(--blanco);
+    font-family: 'Roboto', sans-serif;
+    width: 77%;
+    margin: 20px 10px 20px 192px;
+    display: flex; justify-content: center;
+    border-inline: solid 4px; 
+       }
+
+.padding-1{
+    padding: 20px;
+   background-color: #BC105C;
+   
+    
+}
+
+.padding-2{
+    padding: 3px;
+    text-align: center;
+    color: white;
+    background-color: #E96093;
+    
+}
+
+.padding-boton{
+
+    padding: 8px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bolder;
+    color: white;
+    background-color:#2B7D22;
+    border-radius: 2px;
+    display: block;
+    margin:auto;
+    border-bottom: 10px;
+    border-top: 10px;
+    
+
+}
+
+.padding-boton:hover{
+background-color: #E11364;
+
+
+}
+
+.titulo-mario{
+    border-bottom: 2px dotted;
+    text-align: right;
+    color:#BC105C;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 10px 1px 0px;
+}
+
+.titulo-mortal{
+    border-bottom: 2px dotted;
+    text-align: right;
+    color:#BC105C;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px 10px 1px 0px;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 98%;
+    border: 10px solid white
+}
+
+.caja-principal{
+   
+border:solid 10px var(--color-recuadro); 
+background-color: #BC105C;
+width: 79%;
+margin:auto;
+border-radius: 5px;
+
+}
+    
+.centrado{
+
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.caja-blanca{
+background-color: var(--blanco);
+border-radius: 5px;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    color: var(--blanco);
+}
+.descripcion{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    padding: 5px;
+}
+#pie-de-pagina{
+    text-align: center;
+    color: var(--blanco);
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    margin: 20px 10px 20px 192px;
+    display: flex; justify-content: center;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
