@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins:wght@400;800&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kanit&family=Poppins:wght@400;800&family=Roboto&display=swap');
+:root {
+--rosa-claro: #FF008E;
+--rosa-oscuro: #D22779 ;
+--violeta: #612897 ;
+--azul: #0C1E7F;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+
+   background-image: url(../img/logogym.jpg);
+   background-size: cover;
+   background-position: center;
+
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    color: var(--rosa-claro);
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+    }
+
+
+
+.container {
+background-color: #0c1d7f79;
+
+
+
+}
+
+textarea {
+    resize: none; 
+
+
+}
+
+fieldset {
+    position: relative;
+    background-color: #d2277ac0;
+    border: white 2px solid; 
+    border-radius: 5px;
+    font-family: 'Chivo', sans-serif;
+    
+
+}
+
+.title-2 {
+    display: flex;
+    justify-content: start;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+
+
+}
+
+hr {
+    border-bottom: var(--violeta) solid 5px;
+
+}
+
+.box-personales {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: flex-start;
+    flex-wrap: wrap;
+    width: auto;
+    padding-left: 50px;
+    float: left;
+    
+    
+}
+
+.sexo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.input {
+width: 10px;
+margin-left: 5px;
+margin-right: 5px;
+
+
+ 
+
+}
+.box-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 35px  20px 20px 50px;
+    /* padding-left: 50px; */
+    float: left;
+
+
+
+}
+
+.box-actividades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px  20px 20px 50px;
+    align-content: flex-start;
+    float: left;
+    
+
+    
+}
+
+.p-actividades {
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+ 
+}
+
+.condiciones-novedades {
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+    margin-bottom: 3rem; 
+    padding-left: 1rem;
+    margin-left: 1rem;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+    color: var(--rosa-claro);
+    font-size: 20px;
+    font-family: 'Chivo', sans-serif;
+}
+
+.casilleros {
+    align-self: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    top: 20px ;
+    right: 23px;
+ }
+  
+ button {
+      margin: 10px ;
+     padding: 10px 10px;
+     background-color: var(--rosa-oscuro);
+     color: var(--azul);
+     border-radius: 5px;
+     border-color: var(--rosa-claro) ;
+ }
+ 
+ footer {
+     display: flex;
+     justify-content: center;
+ }
+
+ p {
+margin-left: 1rem;
+text-shadow: 2px 2px 4px rgb(255, 255, 255);
+ }

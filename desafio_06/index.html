@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="css/estilos.css"> -->
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Afiliacion</title>
+</head>
+
+<body>
+  <div class="container">
+  <h1 class="title">Vení al Gym! 💪🏽</h1>
+  <form action="https://formspree.io/f/myyaopya" method="post">
+  <fieldset>
+    <h2 class="title-2"> 🙋‍♂️ Datos Personales 👀</h2>
+      <div class="box-personales">
+      <label for="nombre">Nombre:*</label>
+      <input type="text" name="nombre" id="nombre" required>
+
+      <label for="apellido">Apellido:*</label>
+      <input type="text" name="apellido" id="apellido" required>
+
+      <label for="documento">Documento:*</label>
+      <input type="text" name="documento" id="documento" required>
+
+      <label for="nacionalidad"> Nacionalidad:*</label>
+      <select id="nacionalidad" name="nacionalidad" required>
+        <option value="">- Seleccionar -</option>
+        <option value="AR">Argentina</option>
+        <option value="BR">Brasileña</option>
+        <option value="UY">Uruguaya</option>
+        <option value="OT">Otra</option>
+      </select>
+
+      <label for="detalles">Contanos un poco de vos...</label>
+      <textarea name="detalles" id="detalles"></textarea>
+    
+
+      <p>Sexo:*</p>
+      <div class="sexo">
+      <input type="radio" name="sexo" id="femenino" value="femenino">
+      <label for="femenino">Femenino</label>
+
+      <input type="radio" name="sexo" id="masculino" value="masculino">
+      <label for="masculino">Masculino</label>
+
+      <input type="radio" name="sexo" id="otro" value="otro">
+      <label for="otro">Otro</label>
+      </div>
+    </div>
+  </fieldset>
+
+  <hr>
+
+  <fieldset>
+    <h2 class="title-2"> 📱 Datos de Contacto 📩 </h2>
+    <div class="box-contacto">
+    <label for="telefono">Telefono:</label>
+    <input type="tel" name="telefono" id="telefono" placeholder="Código de área y número"  required>
+
+    <label for="email">Dirección de correo electronico*</label>
+    <input type="email" name="email" id="email" placeholder="Ej: mail@gmail.com" required>
+  </div>
+  </fieldset>
+
+  <hr>
+
+  <fieldset>
+    <h2 class="title-2"> 🚴 Actividades 🤸‍♂️ </h2>
+    <div class="box-actividades">
+    <p class="p-actividades">Por favor, indicá cualés actividades te interesan</p>
+
+    <p class="p-actividades">Sede Palermo</p>
+
+    <input type="checkbox" name="sede" id="basquet-palermo" value="basquet">
+    <label for="basquet-palermo">Básquet</label>
+
+    <input type="checkbox" name="sede" id="boxeo-palermo" value="boxeo">
+    <label for="boxeo-palermo">Boxeo</label>
+
+    <input type="checkbox" name="sede" id="futbol" value="futbol">
+    <label for="futbol">Fútbol</label>
+
+    <input type="checkbox" name="sede" id="tenis" value="tenis">
+    <label for="tenis">Tenis</label>
+
+    <p class="p-actividades">Sede Rosario</p>
+
+    <input type="checkbox" name="sede" id="basquet-rosario" value="basquet">
+    <label for="basquet-rosario">Básquet</label>
+
+    <input type="checkbox" name="sede" id="boxeo-rosario" value="boxeo">
+    <label for="boxeo-rosario">Boxeo</label>
+
+    <input type="checkbox" name="sede" id="rugby" value="rugby">
+    <label for="rugby">Rugby</label>
+
+    <input type="checkbox" name="sede" id="voley" value="voley">
+    <label for="voley">Voley</label>
+  </div>
+  </fieldset>
+  <div class="condiciones-novedades">
+    <input type="checkbox" name="condiciones" id="condiciones" class="casilleros" required>
+    <label for="condiciones">Acepto las condiciones*</label>
+  
+
+    <input type="checkbox" name="novedades" id="novedades" class="casilleros">
+    <label for="novedades" >Deseo recibir novedades</label>
+  </div> 
+
+  <p>*: campo obligatorio.</p>
+  <footer>
+  <button class="flex-button">Iniciar afiliación</button> 
+  <button type="reset" class="flex-button">Restablecer</button>
+  </footer>
+</form>
+</div>
+</body>
+
+</html>

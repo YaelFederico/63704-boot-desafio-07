@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Roboto&display=swap');
+
+:root {
+    --cream-green: #d6e2de;
+    --light-1-green: #a6c1b9;
+    --light-2-green: #4d6d63;
+    --black-green: #2b3d37;
+    --white: #fff;
+    --black: #1f2023;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: var(--black);
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px;
+    color: #fff; 
+    padding: 3.125rem 0rem;
+    margin: 0 2rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    border-top: var(--light-2-green) 1.5rem solid;
+    border-bottom: var(--light-2-green) 1.5rem solid;
+    border-left: var(--black) 1.5rem solid;
+    border-right: var(--black) 1.5rem solid;
+    text-align: center;
+    color: var(--white);
+    
+}
+
+.container {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+textarea {
+     resize: vertical; 
+
+}
+
+fieldset {
+    position: relative;
+    background-color: var(--light-1-green);
+    margin: 1rem 0;
+    border: var(--light-2-green) 2px solid; 
+    border-radius: 5px;
+ 
+}
+
+.title-2 {
+    background-color: var(--black-green);
+    font-family: 'Roboto', sans-serif;
+    top: -20px; 
+    font-size: 1rem;
+    left: 1.2rem;
+    padding: 0.4rem;
+    border-radius: 5px;
+    position: absolute;
+}
+
+hr { 
+    display: flex; 
+    justify-content: center; 
+    align-content: center; 
+    border: none;
+    width: 60%;
+    border-bottom: var(--cream-green) dotted 25px; 
+    margin-left: 150px; 
+    margin-right: 150px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box-personales {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px 20px 40px;
+    text-align: center;
+    color: #1f2023; 
+    
+    
+}
+.sexo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+
+}
+
+input {  
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 2rem; 
+    vertical-align: middle;
+}
+
+select {
+    height: 2rem;
+}
+
+::-webkit-input-placeholder {
+    text-align: right;
+    padding-right: 5px ;
+}
+
+.box-contacto {
+    display: flex;
+    flex-direction: column;
+    padding: 35px 80px 20px 80px;
+    text-align: center;
+    color: #1f2023; 
+}
+
+.box-actividades {
+    float: left;
+    padding: 50px 5px 20px 15px;
+    text-align: center;
+    color: #1f2023; 
+}
+
+.p-actividades {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.condiciones-novedades {
+    display: flex;
+    flex-direction: column;
+    height: 2rem;
+    margin-bottom: 3rem; 
+    padding-left: 1rem;
+}
+
+.casilleros {
+   align-self: flex-start;
+   justify-content: flex-start;
+   position: relative;
+   top: 20px ;
+   right: 23px;
+}
+ 
+button {
+     margin: 10px ;
+    padding: 10px 10px;
+    background-color: #2b3d37;
+    color: #a6c1b9;
+    border-radius: 5px;
+    border-color: #4d6d63;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}

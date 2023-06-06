@@ -1,0 +1,122 @@
+:root {
+   --celeste:  #008080;
+--azul: #000080 ;
+  --gris: #C0C0C0 ;
+--gris-oscuro: #808080;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--celeste);
+    font-family: "Fixedsys", monospace;
+    background-image: url(../img/logo98.png);
+   
+    background-position: right bottom;
+    background-repeat: no-repeat;
+background-size: 100px;
+
+ 
+ 
+ }
+ 
+ .title {
+display: flex;
+padding-bottom: 10px;
+background-color: var(--azul);
+/* border-right: var(--azul) solid 1070px;  */
+background-image: linear-gradient(to right, #000080, #808080);
+margin: 5px 5px 0px 5px;
+border: solid #C0C0C0 10px;
+border-bottom: -10px;
+border-left: white 3px solid;
+     }
+ 
+ 
+ 
+
+ 
+
+ textarea {
+    resize: none; 
+}
+ 
+ fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #C0C0C0;
+    border: solid #C0C0C0 5px;
+    margin: 0px 5px 0px 5px;
+    border-left: white 3px solid;
+    }
+ 
+ hr {
+    border-left: white 3px solid;
+    margin: 0px 5px 0px 5px;
+ 
+ }
+ 
+ .box-personales {
+display: flex;
+flex-direction: column;
+align-items: center;
+     
+     
+ }
+ 
+ .box-contacto {
+    display: flex;
+flex-direction: column;
+align-items: center;
+
+ 
+ 
+ }
+ 
+ .box-actividades {
+    float: left;
+    padding: 10px 5px 20px 15px;
+    text-align: center;
+    color: #1f2023; 
+}
+     
+ 
+     
+ 
+
+ 
+ .condiciones-novedades {
+    margin: 0px 5px 0px 5px;
+
+ }
+ 
+ .casilleros {
+    margin: 0px 5px 0px 5px;
+    
+  }
+   
+  button {
+    margin: 10px ;
+    padding: 7px;
+    color: black;
+    background-color: #C0C0C0;
+    border-color: #808080;
+    
+  }
+  
+  footer {
+    margin: 0px 5px 0px 5px;
+    display: flex;
+    justify-content: center;
+  }
+ 
+  p {
+    margin: 0px 5px 0px 5px;
+  }
